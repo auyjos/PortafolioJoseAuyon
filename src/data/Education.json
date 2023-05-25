@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Colegio Bilingue El Prado",
+    "location": "Guatemala, Guatemala",
+    "course": "Kinder -  2do Básico",
+    "span": "2005-2017",
+    "specialization": "Secundaria"
+  },
+  {
+    "name": "Colegio Decroly Americano",
+    "location": "Guatemala, Guatemala",
+    "course": "3ro Básico - Bachillerato",
+    "span": "2017-2020",
+    "specialization": "Ciencias y Letras"
+  },
+  {
+    "name": "Universidad del Valle de Guatemala",
+    "location": "Guatemala, Guatemala",
+    "course": "Ingeniería en Ciencias de la Computación",
+    "span": "2021-2026",
+    "specialization": ""
+  }
+]

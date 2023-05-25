@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Lab 9 Calculadora",
+    "description": "Para el curso de Sistemas y Tecnologías Web se desarrollo una calculadora con el fin de poder consolidar los conocimientos obtenidos en el curso, se utilizó webpack, babel y eslint para compilar y formatear el proyecto",
+    "sourceCode": "https://github.com/auyjos/Lab9Calculadora.git",
+    "demoLink": "https://lab9jose.web.app"
+  },
+  {
+    "name": "Proyecto Software",
+    "description": "Para el curso de Ingeniería de Software se está desarrollando una aplicación con react native para una granja avícola en la que se lleva el control de las aves.",
+    "sourceCode": "https://github.com/auyjos/proyectomgafrontend.git"
+  },
+  {
+    "name": "Proyecto UberEats",
+    "description": "Para el curso de Sistemas y Tecnologías Web se desarrolló una página de nuestra elección cuyo fin era consolidar nuestros conocimientos previos al igual que aprender a utilizar componentes con la tecnología de nuestra elección",
+    "sourceCode": "https://github.com/auyjos/proyectoEats.git",
+    "demoLink": "https://proyectoeatsjoseauyon.web.app"
+  },
+  {
+    "name": "Lab 8",
+    "description": "Para el curso de Sistemas y Tecnologías Web se desarrolló un juego que nos permitiera familiarizarnos con React y los componentes, al igual que los hooks y estados.",
+    "sourceCode": "https://github.com/auyjos/Lab8reactJoseAuyon.git",
+    "demoLink": "https://labswebjoseauyon.web.app"
+  }
+]

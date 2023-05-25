@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Acerca de mí",
+    "key": "aboutMe",
+    "hide": false
+  },
+  {
+    "name": "Experiencia",
+    "key": "experience",
+    "hide": false
+  },
+  {
+    "name": "Proyectos",
+    "key": "projects",
+    "hide": false
+  },
+  {
+    "name": "Educación",
+    "key": "education",
+    "hide": false
+  },
+  {
+    "name": "Skills",
+    "key": "skills",
+    "hide": true
+  },
+  {
+    "name": "Certificaciones",
+    "key": "certifications",
+    "hide": false
+  }
+]
