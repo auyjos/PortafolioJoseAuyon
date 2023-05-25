@@ -33,8 +33,8 @@ export const TitleWrapper = styled(Box)(({ theme }) => ({
 export const CustomButton = styled(Button)(({ theme }) => ({
   borderWidth: 1,
   borderStyle: "solid",
-  borderColor: StyleConstants.BLACK_COLOR,
-  color: StyleConstants.BLACK_COLOR,
+  borderColor: StyleConstants.WHITE_COLOR,
+  color: StyleConstants.WHITE_COLOR,
   textTransform: "capitalize",
   height: 36,
   fontWeight: 500,
@@ -63,8 +63,8 @@ export const CustomButtonFooter = styled(Button)(({ theme }) => ({
   fontWeight: 600,
   fontSize: 12,
   "&:hover": {
-    backgroundColor: StyleConstants.HEADER,
-    color: StyleConstants.BLACK_COLOR, // Hover text color
+    backgroundColor: StyleConstants.ACTIVE_SECTION,
+    color: StyleConstants.ACTIVE_SECTION, // Hover text color
   },
   "& a": {
     color: "inherit",

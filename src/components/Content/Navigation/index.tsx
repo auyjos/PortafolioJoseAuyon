@@ -7,17 +7,6 @@ import { setCurrentSection } from "./slice";
 import Arrow from "../../../assets/arrow.png";
 import { useNavigationSize } from "../../../hooks/useNavigationSize";
 import { StyleConstants } from "../../../styles/StyleConstants";
-import { keyframes } from "@emotion/react";
-
-// Animation keyframes
-const scaleUp = keyframes`
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.1);
-  }
-`;
 
 const NavigationWrapper = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -25,17 +14,17 @@ const NavigationWrapper = styled(Box)(({ theme }) => ({
   justifyContent: "center",
   backgroundColor: StyleConstants.NAVIGATION_BG,
   padding: "0 20px",
-  borderRadius: 12,
+  borderRadius:12,
   position: "sticky",
-  top: 84,
   width: "100%",
   zIndex: 1,
+  top: 84,
   "& .nav-section": {
     padding: 8,
     display: "flex",
     flexDirection: "column",
     "&:hover": {
-      animation: `${scaleUp} 0.2s ease-in-out forwards`,
+      transform: "scale(1.1)",
     },
   },
   "& .section-name": {
@@ -74,7 +63,7 @@ const NavigationWrapper = styled(Box)(({ theme }) => ({
     "& img": {
       height: 58,
       width: 58,
-      filter: "brightness(0) invert(1)", // Update the filter property to invert the color of the arrow image
+      filter: "invert(1)", // Update the filter property to invert the color of the arrow image
     },
   },
   "& .before": {
@@ -97,11 +86,6 @@ const NavigationWrapper = styled(Box)(({ theme }) => ({
       padding: "0 3px",
     },
   },
-  [theme.breakpoints.down("sm")]: {
-    flexDirection: "column", // Change the direction to column for smaller screens
-    alignItems: "center", // Center align items vertically
-    top: 0, // Remove the sticky position for smaller screens
-  },
 }));
 
 export const NavigationList = () => {
@@ -113,7 +97,6 @@ export const NavigationList = () => {
   const filteredSections = sections.filter((sec) => !sec?.hide);
   const [start, setStart] = useState(0);
   const limit = useNavigationSize();
-
   return (
     <NavigationWrapper>
       {limit < filteredSections.length && (
@@ -121,7 +104,7 @@ export const NavigationList = () => {
           className={`arrow before ${start === 0 && "disabled"}`}
           onClick={() => setStart((val) => val - 1)}
         >
-          <img src={Arrow} alt="arrow" />
+          <img src={Arrow} alt="Arrow" />
         </Box>
       )}
       {filteredSections.slice(start, start + limit).map((sec) => (
@@ -145,7 +128,7 @@ export const NavigationList = () => {
           }`}
           onClick={() => setStart((val) => val + 1)}
         >
-          <img src={Arrow} alt="arrow" />
+          <img src={Arrow} alt="Arrow" />
         </Box>
       )}
     </NavigationWrapper>
