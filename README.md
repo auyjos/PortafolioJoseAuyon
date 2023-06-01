@@ -9,6 +9,7 @@ Cómo usar el repositorio
 Puedes clonar este repositorio ejecutando el siguiente comando en tu terminal:
 
 git clone https://github.com/auyjos/PortafolioJoseAuyon.git
+
 Una vez que hayas clonado el repositorio, puedes explorar los diferentes proyectos y examinar su código. Cada carpeta de proyecto contiene instrucciones específicas sobre cómo ejecutar o configurar el proyecto correspondiente.
 
 Requisitos:
